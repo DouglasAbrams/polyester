@@ -2,7 +2,7 @@
 
 sgseq = function(readmat, transcripts, paired, outdir, extras, reportCoverage=FALSE){
   
-   print ("in sampling with ngbom")
+   print ("in sampling  ngbom")
   
   #report theoretically perfect coverage if reportCoverage=TRUE, will write a file
   if(reportCoverage==TRUE){
