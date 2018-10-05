@@ -1,6 +1,9 @@
 ## internal sequencing function
 
 sgseq = function(readmat, transcripts, paired, outdir, extras, reportCoverage=FALSE){
+  
+   print ("in sampling with ngbom")
+  
   #report theoretically perfect coverage if reportCoverage=TRUE, will write a file
   if(reportCoverage==TRUE){
     templates = unique(transcripts)
