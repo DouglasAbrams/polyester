@@ -318,7 +318,7 @@
 simulate_experiment = function(fasta=NULL, gtf=NULL, seqpath=NULL,
     outdir='.', num_reps=c(10,10), reads_per_transcript=300, size=NULL,
     fold_changes, paired=TRUE, reportCoverage=FALSE, ...){
-
+    print("ekwfugviywehvewhyevwFLUYEWFVLWEH")
     extras = list(...)
 
     # validate extra arguments/set sane defaults
