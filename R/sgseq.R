@@ -11,7 +11,7 @@ sgseq = function(readmat, transcripts, paired, outdir, extras, reportCoverage=FA
     for(i in 1:length(templates)){coverage_matrices = c(coverage_matrices, list(matrix(0, ncol=dim(readmat)[2], width(templates)[i])))}
     names(coverage_matrices) = names(templates)
   }
-  
+  print(extras)
   for(i in seq_len(ncol(readmat))) {
     
     ##$ begin small chunk regarding fragment GC bias or not
