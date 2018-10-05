@@ -13,9 +13,11 @@ sgseq = function(readmat, transcripts, paired, outdir, extras, reportCoverage=FA
   }
   
   for(i in seq_len(ncol(readmat))) {
+    
     ##$ begin small chunk regarding fragment GC bias or not
     if (is.matrix(extras$frag_GC_bias)) {
       frag_GC_bias <- extras$frag_GC_bias[,i]
+      print(frag_GC_bias)
     } else {
       frag_GC_bias <- 'none'
     }
